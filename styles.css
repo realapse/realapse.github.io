@@ -12,6 +12,7 @@ header {
   padding: 1em;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  position: relative; /* Add this line */
 }
 
 nav ul {
@@ -61,4 +62,11 @@ button, .button {
 
 button:hover, .button:hover {
   background-color: #cc0000; /* Darker red on hover */
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
 }
