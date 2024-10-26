@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Black background */
+  color: #f1f1f1; /* Light text color for readability */
+}
+
+header {
+  background-color: #ff0000; /* Red background for header */
+  color: white;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white; /* White text for navigation links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #cccccc; /* Light grey on hover */
+}
+
+section {
+  margin: 2em;
+  padding: 1em;
+  background-color: #1a1a1a; /* Dark grey background for sections */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2 {
+  color: #ff0000; /* Red headings */
+}
+
+button, .button {
+  background-color: #ff0000; /* Red buttons */
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
